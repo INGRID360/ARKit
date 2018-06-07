@@ -1,7 +1,3 @@
-[![Build Status](https://travis-ci.org/ignacio-chiazzo/ARKit.svg?branch=master)](https://travis-ci.org/ignacio-chiazzo/ARKit)
-[![GitHub issues open](https://img.shields.io/github/issues/ignacio-chiazzo/ARKit.svg?maxAge=2592000)]() 
-
-
 # ARKit - Placing Virtual Objects in Augmented Reality
 
 Visual feedback, gesture interactions, and realistic rendering in AR experience.

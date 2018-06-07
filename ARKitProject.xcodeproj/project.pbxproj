@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29EA9E0720C937C70006BB2B /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA9E0620C937C70006BB2B /* SplashViewController.swift */; };
 		3929C48C1E89EC2C00E00B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */; };
 		3929C48E1E89EC2C00E00B60 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929C48D1E89EC2C00E00B60 /* MainViewController.swift */; };
 		3929C4911E89EC2C00E00B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3929C48F1E89EC2C00E00B60 /* Main.storyboard */; };
@@ -23,10 +24,6 @@
 		58DE9FC71FDDA042008E25AF /* VirtualObjectsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DE9FC61FDDA041008E25AF /* VirtualObjectsManager.swift */; };
 		A35A11CF1EF4EB070072FE74 /* ScieneView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A11CE1EF4EB070072FE74 /* ScieneView+Extension.swift */; };
 		A3D672ED1EF0E7C500110E48 /* Cup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D672EC1EF0E7C500110E48 /* Cup.swift */; };
-		A3D672EF1EF0E80200110E48 /* Candle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D672EE1EF0E80200110E48 /* Candle.swift */; };
-		A3D672F11EF0E81B00110E48 /* Chair.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D672F01EF0E81B00110E48 /* Chair.swift */; };
-		A3D672F31EF0E84D00110E48 /* Lamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D672F21EF0E84D00110E48 /* Lamp.swift */; };
-		A3D672F51EF0E8DF00110E48 /* Vase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D672F41EF0E8DF00110E48 /* Vase.swift */; };
 		C41366B91EB80DD400EC054A /* TextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41366B81EB80DD400EC054A /* TextManager.swift */; };
 		C42A71BD1E9C0AF200944367 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42A71BC1E9C0AF200944367 /* FocusSquare.swift */; };
 		C490DAC41E9AB63400210960 /* VirtualObjectSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C490DAC31E9AB63400210960 /* VirtualObjectSelectionViewController.swift */; };
@@ -37,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		11063F3B1EBE651B0033EE6D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		29EA9E0620C937C70006BB2B /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3929C48D1E89EC2C00E00B60 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3929C4901E89EC2C00E00B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,10 +53,6 @@
 		A35A11CE1EF4EB070072FE74 /* ScieneView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScieneView+Extension.swift"; sourceTree = "<group>"; };
 		A3D672E41EF0E64100110E48 /* ARKitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D672EC1EF0E7C500110E48 /* Cup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cup.swift; sourceTree = "<group>"; };
-		A3D672EE1EF0E80200110E48 /* Candle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candle.swift; sourceTree = "<group>"; };
-		A3D672F01EF0E81B00110E48 /* Chair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chair.swift; sourceTree = "<group>"; };
-		A3D672F21EF0E84D00110E48 /* Lamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lamp.swift; sourceTree = "<group>"; };
-		A3D672F41EF0E8DF00110E48 /* Vase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vase.swift; sourceTree = "<group>"; };
 		C41366B81EB80DD400EC054A /* TextManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextManager.swift; sourceTree = "<group>"; };
 		C42A71BC1E9C0AF200944367 /* FocusSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
 		C490DAC31E9AB63400210960 /* VirtualObjectSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualObjectSelectionViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +98,7 @@
 			children = (
 				C77BC2E420C933D300A55142 /* splash.png */,
 				3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */,
+				29EA9E0620C937C70006BB2B /* SplashViewController.swift */,
 				3929C48D1E89EC2C00E00B60 /* MainViewController.swift */,
 				39C0B9571E9C6B1F003FCA0C /* SettingsViewController.swift */,
 				C490DAC31E9AB63400210960 /* VirtualObjectSelectionViewController.swift */,
@@ -129,10 +124,6 @@
 				C4E87DD81EA6B40F002117D6 /* VirtualObject.swift */,
 				58DE9FC61FDDA041008E25AF /* VirtualObjectsManager.swift */,
 				A3D672EC1EF0E7C500110E48 /* Cup.swift */,
-				A3D672EE1EF0E80200110E48 /* Candle.swift */,
-				A3D672F01EF0E81B00110E48 /* Chair.swift */,
-				A3D672F21EF0E84D00110E48 /* Lamp.swift */,
-				A3D672F41EF0E8DF00110E48 /* Vase.swift */,
 			);
 			path = "Virtual Objects";
 			sourceTree = "<group>";
@@ -238,20 +229,17 @@
 				C41366B91EB80DD400EC054A /* TextManager.swift in Sources */,
 				39C0B95A1E9C6B1F003FCA0C /* Utilities.swift in Sources */,
 				392BB82C1EA19A7C00FBBAC8 /* Plane.swift in Sources */,
-				A3D672F11EF0E81B00110E48 /* Chair.swift in Sources */,
-				A3D672F51EF0E8DF00110E48 /* Vase.swift in Sources */,
 				3987BEDC1E9E057F00167FAC /* Gesture.swift in Sources */,
 				C4E87DD91EA6B40F002117D6 /* VirtualObject.swift in Sources */,
 				39D4A8BE1EA1AF530006EC65 /* PlaneDebugVisualization.swift in Sources */,
 				39C0B9591E9C6B1F003FCA0C /* SettingsViewController.swift in Sources */,
+				29EA9E0720C937C70006BB2B /* SplashViewController.swift in Sources */,
 				A3D672ED1EF0E7C500110E48 /* Cup.swift in Sources */,
 				C490DAC41E9AB63400210960 /* VirtualObjectSelectionViewController.swift in Sources */,
 				C42A71BD1E9C0AF200944367 /* FocusSquare.swift in Sources */,
 				3929C48C1E89EC2C00E00B60 /* AppDelegate.swift in Sources */,
-				A3D672EF1EF0E80200110E48 /* Candle.swift in Sources */,
 				C4FBC02B1EC6438B003F7864 /* ARCameraTrackingState.swift in Sources */,
 				58DE9FC71FDDA042008E25AF /* VirtualObjectsManager.swift in Sources */,
-				A3D672F31EF0E84D00110E48 /* Lamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +290,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K2M874HBLF;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -361,6 +350,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K2M874HBLF;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

@@ -88,7 +88,7 @@ class MainViewController: UIViewController {
 
 	@IBAction func chooseObject(_ button: UIButton) {
 //        if isLoadingObject { return }
-        loadVirtualObject(object: Vase())
+        loadVirtualObject(object: Cup())
         
         // Abort if we are about to load another object to avoid concurrent modifications of the scene.
 //        if isLoadingObject { return }
